@@ -5,6 +5,7 @@
     "SCRIPT_DEBUG": true,
     "WP_DEBUG_DISPLAY": true
   },
+  "themes": ["https://downloads.wordpress.org/theme/generatepress.3.5.1.zip"],
   "mappings": {
     "wp-content/uploads": "./wp-content/uploads",
     "wp-content/themes": "./wp-content/themes",
