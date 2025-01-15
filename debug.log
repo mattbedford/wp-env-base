@@ -1,0 +1,243 @@
+[30-Dec-2024 12:44:12 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1982
+[30-Dec-2024 12:53:06 UTC] PHP Warning:  include_once(/var/www/html/wp-content/plugins/react-base/includes/Api.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/react-base/init.php on line 10
+[30-Dec-2024 12:53:06 UTC] PHP Warning:  include_once(): Failed opening '/var/www/html/wp-content/plugins/react-base/includes/Api.php' for inclusion (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/react-base/init.php on line 10
+[30-Dec-2024 12:53:06 UTC] PHP Warning:  include_once(/var/www/html/wp-content/plugins/react-base/includes/Api.php): Failed to open stream: No such file or directory in /var/www/html/wp-content/plugins/react-base/init.php on line 10
+[30-Dec-2024 12:53:06 UTC] PHP Warning:  include_once(): Failed opening '/var/www/html/wp-content/plugins/react-base/includes/Api.php' for inclusion (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/react-base/init.php on line 10
+[30-Dec-2024 12:53:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/react-base/init.php:10) in /var/www/html/wp-includes/pluggable.php on line 1435
+[30-Dec-2024 12:53:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/wp-content/plugins/react-base/init.php:10) in /var/www/html/wp-includes/pluggable.php on line 1438
+[01-Jan-2025 13:16:47 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wp-includes/class-wpdb.php on line 1982
+[01-Jan-2025 16:45:56 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "theme_setup" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(682): do_action('after_setup_the...')
+#3 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[01-Jan-2025 16:46:26 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "theme_setup" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(682): do_action('after_setup_the...')
+#3 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[01-Jan-2025 16:46:56 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "theme_setup" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(682): do_action('after_setup_the...')
+#3 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[01-Jan-2025 16:47:56 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "theme_setup" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(682): do_action('after_setup_the...')
+#3 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[01-Jan-2025 16:48:27 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "theme_setup" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(682): do_action('after_setup_the...')
+#3 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[01-Jan-2025 16:48:56 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "theme_setup" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(682): do_action('after_setup_the...')
+#3 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[01-Jan-2025 16:49:56 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "theme_setup" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(682): do_action('after_setup_the...')
+#3 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[01-Jan-2025 16:50:27 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "theme_setup" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(682): do_action('after_setup_the...')
+#3 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[01-Jan-2025 16:50:56 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "theme_setup" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(682): do_action('after_setup_the...')
+#3 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[01-Jan-2025 16:51:56 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "theme_setup" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(682): do_action('after_setup_the...')
+#3 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[01-Jan-2025 16:53:09 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "BareSimplicity\BareSimplicity\Supports" not found in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(682): do_action('after_setup_the...')
+#3 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[01-Jan-2025 16:53:11 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "BareSimplicity\BareSimplicity\Supports" not found in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(682): do_action('after_setup_the...')
+#3 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[01-Jan-2025 16:53:11 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "BareSimplicity\BareSimplicity\Supports" not found in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(682): do_action('after_setup_the...')
+#3 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/post.php(12): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[01-Jan-2025 16:53:11 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "BareSimplicity\BareSimplicity\Supports" not found in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-settings.php(682): do_action('after_setup_the...')
+#3 /var/www/html/wp-config.php(150): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[15-Jan-2025 18:02:55 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "only_show_vue_template" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('/var/www/html/w...', Array)
+#1 /var/www/html/wp-includes/template-loader.php(104): apply_filters('template_includ...', '/var/www/html/w...')
+#2 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#3 /var/www/html/index.php(17): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[15-Jan-2025 18:05:49 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "only_show_vue_template" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('/var/www/html/w...', Array)
+#1 /var/www/html/wp-includes/template-loader.php(104): apply_filters('template_includ...', '/var/www/html/w...')
+#2 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#3 /var/www/html/index.php(17): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[15-Jan-2025 18:11:22 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class BareSimplicity\Routes does not have a method "only_show_vue_template" in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('/var/www/html/w...', Array)
+#1 /var/www/html/wp-includes/template-loader.php(104): apply_filters('template_includ...', '/var/www/html/w...')
+#2 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#3 /var/www/html/index.php(17): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[15-Jan-2025 18:11:49 UTC] PHP Warning:  Constant WP_USE_THEMES already defined in /var/www/html/index.php on line 14
+[15-Jan-2025 18:12:29 UTC] PHP Warning:  Constant WP_USE_THEMES already defined in /var/www/html/index.php on line 14
+[15-Jan-2025 18:14:00 UTC] PHP Warning:  Constant WP_USE_THEMES already defined in /var/www/html/index.php on line 14
+[15-Jan-2025 18:14:02 UTC] PHP Warning:  Constant WP_USE_THEMES already defined in /var/www/html/index.php on line 14
+[15-Jan-2025 18:14:04 UTC] PHP Warning:  Constant WP_USE_THEMES already defined in /var/www/html/index.php on line 14
+[15-Jan-2025 18:15:33 UTC] PHP Warning:  Constant WP_USE_THEMES already defined in /var/www/html/index.php on line 14
+[15-Jan-2025 18:16:14 UTC] PHP Warning:  Constant WP_USE_THEMES already defined in /var/www/html/index.php on line 14
+[15-Jan-2025 18:16:32 UTC] PHP Warning:  Constant WP_USE_THEMES already defined in /var/www/html/index.php on line 14
+[15-Jan-2025 18:18:37 UTC] PHP Warning:  include(/var/www/html/wp-content/themes/bare-simplicity-custom/includes/index.php): Failed to open stream: No such file or directory in /var/www/html/wp-includes/template-loader.php on line 106
+[15-Jan-2025 18:18:37 UTC] PHP Warning:  include(): Failed opening '/var/www/html/wp-content/themes/bare-simplicity-custom/includes/index.php' for inclusion (include_path='.:/usr/local/lib/php') in /var/www/html/wp-includes/template-loader.php on line 106
+[15-Jan-2025 18:20:00 UTC] PHP Warning:  include(/var/www/html/wp-content/themes/bare-simplicity-custom/includes): Failed to open stream: No such file or directory in /var/www/html/wp-includes/template-loader.php on line 106
+[15-Jan-2025 18:20:00 UTC] PHP Warning:  include(): Failed opening '/var/www/html/wp-content/themes/bare-simplicity-custom/includes' for inclusion (include_path='.:/usr/local/lib/php') in /var/www/html/wp-includes/template-loader.php on line 106
+[15-Jan-2025 18:20:40 UTC] PHP Warning:  include(/var/www/html/wp-content/themes/bare-simplicity-custom/includes/includes/index.php): Failed to open stream: No such file or directory in /var/www/html/wp-includes/template-loader.php on line 106
+[15-Jan-2025 18:20:40 UTC] PHP Warning:  include(): Failed opening '/var/www/html/wp-content/themes/bare-simplicity-custom/includes/includes/index.php' for inclusion (include_path='.:/usr/local/lib/php') in /var/www/html/wp-includes/template-loader.php on line 106
+[15-Jan-2025 18:23:27 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class BareSimplicity\Routes does not have a method "Template" in /var/www/html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('/var/www/html/w...', Array)
+#1 /var/www/html/wp-includes/template-loader.php(104): apply_filters('template_includ...', '/var/www/html/w...')
+#2 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#3 /var/www/html/index.php(17): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 324
+[15-Jan-2025 18:26:32 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class BareSimplicity\Routes does not have a method "disable_404_redirection" in /var/www/html/wp-includes/class-wp-hook.php:326
+Stack trace:
+#0 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#1 /var/www/html/wp-includes/canonical.php(821): apply_filters('redirect_canoni...', 'http://localhos...', 'http://localhos...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(324): redirect_canonical('http://localhos...')
+#3 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#6 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 326
+[15-Jan-2025 18:27:13 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class BareSimplicity\Routes does not have a method "disable_404_redirection" in /var/www/html/wp-includes/class-wp-hook.php:326
+Stack trace:
+#0 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#1 /var/www/html/wp-includes/canonical.php(821): apply_filters('redirect_canoni...', 'http://localhos...', 'http://localhos...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(324): redirect_canonical('http://localhos...')
+#3 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#6 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 326
+[15-Jan-2025 18:27:42 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class BareSimplicity\Routes does not have a method "disable_404_redirection" in /var/www/html/wp-includes/class-wp-hook.php:326
+Stack trace:
+#0 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#1 /var/www/html/wp-includes/canonical.php(821): apply_filters('redirect_canoni...', 'http://localhos...', 'http://localhos...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(324): redirect_canonical('http://localhos...')
+#3 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#6 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#7 /var/www/html/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 326
+[15-Jan-2025 20:03:38 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function BareSimplicity\Routes::NoFourOhFour(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 326 and exactly 4 expected in /var/www/html/wp-content/themes/bare-simplicity-custom/includes/routes.php:37
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(326): BareSimplicity\Routes::NoFourOhFour('HTTP/1.1 302 Fo...')
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('HTTP/1.1 302 Fo...', Array)
+#2 /var/www/html/wp-includes/functions.php(1474): apply_filters('status_header', 'HTTP/1.1 302 Fo...', 302, 'Found', 'HTTP/1.1')
+#3 /var/www/html/wp-includes/pluggable.php(1419): status_header(302)
+#4 /var/www/html/wp-admin/options-permalink.php(208): wp_redirect('http://localhos...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/bare-simplicity-custom/includes/routes.php on line 37
+[15-Jan-2025 20:03:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[15-Jan-2025 20:03:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-includes/class-wp-recovery-mode-email-service.php on line 368

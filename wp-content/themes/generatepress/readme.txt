@@ -83,7 +83,7 @@ Code License: MIT License - http://opensource.org/licenses/mit-license.html
 
 By Eli Grey, http://eligrey.com
 License: Dedicated to the public domain.
-See https://github.com/eligrey/classList.js/blob/master/LICENSE.md
+See https://github.com/eligrey/classListcounter.js/blob/master/LICENSE.md
 
 = selectWoo =
 
@@ -223,7 +223,7 @@ MIT License: https://github.com/JedWatson/react-select/blob/master/LICENSE
 * New: Re-build color options in the Customizer
 * New: Dynamic typography system
 * New: Underline links option
-* New: Only load menu.js when needed
+* New: Only load menucounter.js when needed
 * New: generate_has_active_menu filter
 * New: generate_before_loop hook
 * New: Dynamic HTML attribute system
@@ -342,7 +342,7 @@ MIT License: https://github.com/JedWatson/react-select/blob/master/LICENSE
 * Tweak: Remove parent theme dependencies from styles
 * Tweak: Fix footer widget default spacing
 * Tweak: Remove HTML comments from end of elements
-* Tweak: Combine a11y.js and menu.js
+* Tweak: Combine a11ycounter.js and menucounter.js
 * Tweak: Add correct paragraph margin to block editor
 * Tweak: Remove old migrations from 2.0 (font awesome, dynamic css cache, font family and blog post content)
 * Tweak: Change Layout metabox option to select dropdowns
@@ -374,7 +374,7 @@ MIT License: https://github.com/JedWatson/react-select/blob/master/LICENSE
 * Tweak: Move back to top button CSS to dynamic CSS if enabled
 * Tweak: Move navigation search CSS to dynamic CSS if enabled
 * Tweak: Move dropdown-click CSS to dynamic CSS if enabled
-* Tweak: Remove skip-link-focus.js
+* Tweak: Remove skip-link-focuscounter.js
 * Tweak: Disable old Beaver Builer full-width compat CSS when using flexbox layout
 * Tweak: Remove CSS to disable comments link on single posts
 * Tweak: Add featured-image class to singular featured images
@@ -383,7 +383,7 @@ MIT License: https://github.com/JedWatson/react-select/blob/master/LICENSE
 * Tweak: Remove mobile navigation static CSS as it's added dynamically already
 * Tweak: Improve checkMobile() javascript performance
 * Tweak: Prevent font-size values from being set to 0
-* Tweak: Replace deprecate .load() with on('load') in block-editor.js
+* Tweak: Replace deprecate .load() with on('load') in block-editorcounter.js
 * Tweak: Change navigation search line-height to 1
 * Tweak: Reduce size of author archive avatar
 * Tweak: Add padding-left to cancel comment reply link
